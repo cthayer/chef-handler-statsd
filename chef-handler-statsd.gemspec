@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.name          = "chef-handler-statsd"
   gem.require_paths = ["lib"]
-  gem.version       = "1.0.0"
+  gem.version       = "1.0.1"
   
   gem.add_dependency 'dogstatsd-ruby', '~> 4.5.0'
 end
